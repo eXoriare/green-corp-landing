@@ -43,6 +43,14 @@ button {
     transition: background-color 0.2s ease-in;
 }
 
+.orb-canvas {                       /* Viva animation */
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
 .about__image {
     width: 500px;
 }
@@ -68,6 +76,8 @@ button {
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+
+    position: relative;
 }
 
 .about h1 {
